@@ -28,4 +28,5 @@ class PlotAllClusters:
             ax.add_patch(ellipse)
 
     def show_plot(self):
+        plt.savefig('processing.png')
         plt.show()
